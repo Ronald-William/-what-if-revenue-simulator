@@ -17,9 +17,6 @@ npm run dev
 
 Backend runs on **http://localhost:3000**
 
-On startup you should see:
-Loaded: Q1=X deals, Q2=X deals, Q3=X deals
-Backend running on http://localhost:3000
 
 ---
 
@@ -44,7 +41,7 @@ Open that URL in your browser. The chart will load automatically once the backen
 - **Which Q3 deals get counted?** => Only the deals which are expected to close in quarter 3 itself (based on remaining time from previous assumption). Any deal which exceeds that is quarter 4's problem
 - **Region is a factor in conversion rate and average deal size** => I have segmented the given data based on regions('US', 'EU', 'APAC') and calculated the conversion rate and average deal size according to region. This segmentation affects the simulation of quarter 3 data as well. For example: Consider there are 3 US Deals with conversion rate of 0.9 and 1 EU deal with conversion rate of 0.4 and both have a average deal size of 40000. Then revenue would be calculated as 3 * 0.9 * 40000 + 1 * 0.4 * 40000.
 - **logical boundary on simulation inputs** => I have defined a logical boundary of 50% on all simulation inputs to escape unrealistic scenarios.
-- **Revenue is distributed weekly**
+- **Revenue is distributed weekly - 13 weeks in a quarter**
 - **Indian rupee is used as currency metric**
 
 <img width="1916" height="870" alt="image" src="https://github.com/user-attachments/assets/1a776ef2-09c6-46c9-a46f-68e321fc1f34" />
