@@ -48,3 +48,8 @@ Open that URL in your browser. The chart will load automatically once the backen
 - **Indian rupee is used as currency metric**
 
 <img width="1916" height="870" alt="image" src="https://github.com/user-attachments/assets/1a776ef2-09c6-46c9-a46f-68e321fc1f34" />
+
+
+https://github.com/user-attachments/assets/103e5827-13a0-4535-9dc4-2528d0579fdb
+
+
